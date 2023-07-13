@@ -1,0 +1,98 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://th.bing.com/th/id/OIP.hxx_FjWHzJ--GbTImlWzXAHaE7?pid=ImgDet&rs=1);
+    background-size:35%;
+    background-position: -10px 210px;
+    background-repeat: no-repeat;
+  }
+  
+  /* Header */
+  header {
+    background-color: lightblue;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  nav ul li {
+    margin-right: 70px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: auto;
+    
+  }
+  
+  .search-form {
+    margin-left: auto;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Sections */
+  section {
+    padding: 80px 0;
+    background-color: transparent;
+  }
+  
+  section .content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section h1,
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
